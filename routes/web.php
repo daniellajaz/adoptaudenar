@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\adopta;
+use App\Http\Controllers\procesos;
 /*
+
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -16,3 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('principal');
 });
+Route::get('adopta/perros',[adopta::class, 'mostrarPerro']);
+
+Route::get('adopta/gatos',[adopta::class, 'mostrarGato']);
+
+Route::get('adopta/otros',[adopta::class, 'mostrarOtros']);
+
+Route::get('procesos/formulario',[procesos::class, 'mostrarFormulario']);
+
+Route::get('procesos/confirmacion',[procesos::class, 'mostrarConfirmacion']);
