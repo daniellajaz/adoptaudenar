@@ -1,0 +1,40 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #0c9600;
+    background-image: url('images/bg.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+    content: "";
+}
+
+.p-5 {
+    border-radius: 20px;
+}
+
+.card-contacto{
+    background-color: #ebebeb;
+    border-radius: 20px;
+}
+
+.bg-edit{
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+.etiqueta{
+    text-align: center;
+    color: #0c9600;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    margin-top: -25px;
+}
