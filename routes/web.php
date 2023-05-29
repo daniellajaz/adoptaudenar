@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\adopta;
 use App\Http\Controllers\procesos;
+use App\Http\Controllers\main;
 /*
 
 |--------------------------------------------------------------------------
@@ -15,9 +16,8 @@ use App\Http\Controllers\procesos;
 |
 */
 
-Route::get('/', function () {
-    return view('principal');
-});
+Route::get('/',[main::class, 'mostrarPrincipal']);
+
 Route::get('adopta/perros',[adopta::class, 'mostrarPerro']);
 
 Route::get('adopta/gatos',[adopta::class, 'mostrarGato']);

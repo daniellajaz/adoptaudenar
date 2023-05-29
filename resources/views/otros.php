@@ -14,48 +14,7 @@
     <!-- Enlaces a los archivos de estilo de MDBootstrap a través de CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.1/dist/css/mdb.min.css">
-    <style>
-        body {
-            margin-left: 20%;
-            margin-right: 20%;
-            color: #0c9600;
-            background-image: url('images/bg.jpg');
-            background-position: center center;
-            background-attachment: fixed;
-        }
-
-        .carousel-control-next-icon:after,
-        .carousel-control-prev-icon:after {
-            content: "";
-        }
-
-        .p-5 {
-            border-radius: 20px;
-        }
-
-        .card-contacto{
-            background-color: #ebebeb;
-            border-radius: 20px;
-        }
-
-        .bg-edit{
-            background-color: rgba(255, 255, 255, 0.582);
-        }
-
-        .etiqueta{
-            text-align: center;
-            color: #0c9600;
-            font-family: Tahoma;
-            font-size: 30px;
-            font-weight: 600;
-            width: 50%;
-            border-radius: 20px;
-            background-color: #ffffff;
-            margin: auto;
-            padding: 20px;
-            margin-top: -25px;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
 <body>
@@ -64,8 +23,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0c9600;">
       <!-- Container wrapper -->
       <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="font-family: Tahoma; font-size: 30px; font-weight: 550;">Adopta
-              Udenar</a>
+      <a class="navbar-brand" href="#" style="font-family: Tahoma; font-size: 30px; font-weight: 550;">
+                <img src="../images/logo.png" alt="logo" width="50px" height="50px" style="border-radius:25px;"> 
+                Adopta Udenar
+            </a>
           <!-- Toggle button -->
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
               data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
@@ -105,7 +66,7 @@
                       <a class="nav-link" href="../procesos/formulario">Adopta</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#contacto">Contacto</a>
+                      <a class="nav-link" href="../#contacto">Contacto</a>
                   </li>
               </ul>
               <!-- Left links -->
@@ -121,7 +82,7 @@
           <div class="row">
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/conejo.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/conejo.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">1. Lilo</h5>
                 </div>
@@ -129,7 +90,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/hamster.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/hamster.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">2. Stacy</h5>
                 </div>
@@ -137,7 +98,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/perico.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/perico.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">3. Albert</h5>
                 </div>
@@ -145,7 +106,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/tortuga.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/tortuga.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">4. Donatello</h5>
                 </div>
@@ -153,7 +114,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/loro.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/loro.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">5. Luis</h5>
                 </div>
@@ -161,7 +122,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card">
-                <img src="images/huron.jpg" class="card-img-top" alt="Imagen del gato">
+                <img src="../images/huron.jpg" class="card-img-top" alt="Imagen del gato">
                 <div class="card-body">
                   <h5 class="card-title">6. Crash</h5>
                 </div>
